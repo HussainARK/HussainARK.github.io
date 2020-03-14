@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Beginning with the Navigation Bar */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  height: 50%;
+  padding: 5px 10%;
+}
+
+.logo {
+  margin-left: auto;
+  width: 200%;
+}
+
+.nav-item {
+  color: white;
+  transition: all 0.4s ease 0s;
+  margin-left: 30px;
+}
+
+.nav-item:hover {
+  color: #00ffffff;
+  text-decoration: none;
+}
+
+/* End of the Navigation Bar */
+
+/* Also the Main Section */
+
+main {
+  color: white;
+  text-align: center;
+}
+
+main * {
+  margin: 20px 20px;
+}
+
+.first-section {
+  border-bottom: 1px solid #506050;
+  padding-bottom: 20px;
+}
+
+.thick-header {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.description {
+  margin-bottom: 200px;
+  font-weight: 400;
+}
+
+.projects-list li {
+  list-style-type: none;
+}
+
+/* End of the Main Section */
+
+/* Styling the Footer */
+
+footer {
+  border-top: 1px solid #506050;
+  margin-top: auto;
+}
+
+footer * {
+  color: white;
+  text-align: center;
+  margin: 20px 20px;
+}
+
+/* End of Styling the Footer */
+
+/* The Main Tags */
+
+a {
+  color: white;
+  color: #00ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: white;
+  transition: all 0.4s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* End of Styling the Maan Tags */
