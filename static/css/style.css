@@ -28,6 +28,7 @@ header {
   justify-content: space-between;
   background-color: black;
   align-items: center;
+  flex-direction: row;
   height: 50%;
   padding: 5px 10%;
 }
@@ -41,6 +42,30 @@ header {
   color: white;
   transition: all 0.4s ease 0s;
   margin-left: 30px;
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #506050;
+  }
+
+  .logo {
+    width: 120%;
+  }
+
+  .contact-button {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 30px;
+  }
 }
 
 .nav-item:hover {
