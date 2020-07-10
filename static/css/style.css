@@ -122,12 +122,12 @@ main * {
 footer {
   border-top: 1px solid #506050;
   margin-top: auto;
+  text-align: center;
 }
 
 footer * {
   color: white;
-  text-align: center;
-  margin: 20px 20px;
+  padding: 22px 22px;
 }
 
 /* End of Styling the Footer */
@@ -157,4 +157,4 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* End of Styling the Maan Tags */
+/* End of Styling the Main Tags */
