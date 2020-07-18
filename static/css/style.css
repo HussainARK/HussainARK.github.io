@@ -127,7 +127,8 @@ footer {
 
 footer * {
   color: white;
-  padding: 22px 22px;
+  margin-bottom: 14px;
+  margin-left: 10px;
 }
 
 /* End of Styling the Footer */
